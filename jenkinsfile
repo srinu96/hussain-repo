@@ -1,0 +1,9 @@
+node {
+stage ('scm checkout') {
+https://github.com/srinu96/hussain-repo.git}
+stage 'compile' {
+echo "this is compile stage"}
+stage 'test' {
+echo "this is test stage"}
+stage 'deploy'{
+echo "this is deploy stage"}
